@@ -40,5 +40,5 @@ function get() {
       flames.substring(0, fcounter - 1);
     fLength = fLength - 1;
   }
-  document.querySelector("body").innerHTML = `<h1>${specify[flames]}</h1>`;
+  document.querySelector(".result").textContent = specify[flames];
 }
